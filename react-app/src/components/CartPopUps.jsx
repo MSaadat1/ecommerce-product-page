@@ -4,7 +4,7 @@ export function CartPopUps({ cartItems, handleDelete }) {
   return (
     <div className="popup-container">
       <h4>Cart</h4>
-      <hr className="cart-hr"/>
+      <hr className="cart-hr" />
       {cartItems.length === 0 ? (
         <div className="cart-empty-container">
           <p>Your Cart is Empty</p>
@@ -31,7 +31,10 @@ export function CartPopUps({ cartItems, handleDelete }) {
                   handleDelete(item.id);
                 }}
               >
-                <img src="/images/icon-delete.svg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}images/icon-delete.svg`}
+                  alt=""
+                />
               </div>
             </div>
           ))}

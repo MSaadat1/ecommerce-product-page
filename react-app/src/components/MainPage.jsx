@@ -125,7 +125,7 @@ export function MainPage({
             <button onClick={handleClick}>
               <img
                 className="addCartImg"
-                src="/images/icon-cart.svg"
+                src={`${import.meta.env.BASE_URL}images/icon-cart.svg`}
                 alt="cart"
               />
               Add to Cart

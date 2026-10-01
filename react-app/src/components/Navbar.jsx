@@ -19,16 +19,16 @@ export function Navbar({ cartItems, isCartOpen, setIsCartOpen, handleDelete }) {
           <img
             onClick={handleOpenMenu}
             className="menu-icon"
-            src="./images/icon-menu.svg"
+            src={`${import.meta.env.BASE_URL}images/icon-menu.svg`}
             alt=""
           />
           {isMenuOpen && (
             <>
-            <div className="menu-overlay"></div>
+              <div className="menu-overlay"></div>
               <div className="navlist-items-drop-container">
                 <img
                   onClick={handleCloseMenu}
-                  src="/images/icon-close.svg"
+                  src={`${import.meta.env.BASE_URL}images/icon-close.svg`}
                   alt=""
                 />
                 <ul className="navlist-items-drop">
@@ -40,7 +40,7 @@ export function Navbar({ cartItems, isCartOpen, setIsCartOpen, handleDelete }) {
             </>
           )}
           <div className="logo-container">
-            <img src="/images/logo.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="" />
           </div>
           <div className="navlists-container">
             <ul className="navlist-items">
@@ -56,13 +56,19 @@ export function Navbar({ cartItems, isCartOpen, setIsCartOpen, handleDelete }) {
             {cartItems.length === 1 && (
               <span className="quantity-on-cart">{cartItems[0].quantity}</span>
             )}
-            <img src="/images/icon-cart.svg" alt="" />
+            <img
+              src={`${import.meta.env.BASE_URL}images/icon-cart.svg`}
+              alt=""
+            />
             {isCartOpen && (
               <CartPopUps cartItems={cartItems} handleDelete={handleDelete} />
             )}
           </div>
           <div className="user-img">
-            <img src="/images/image-avatar.png" alt="" />
+            <img
+              src={`${import.meta.env.BASE_URL}images/image-avatar.png`}
+              alt=""
+            />
           </div>
         </div>
       </div>

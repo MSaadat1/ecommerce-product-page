@@ -29,19 +29,19 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](react-app/public/sceenshots/full-screen.png)
+![Desktop](react-app/public/screenshots/full-screen.png)
 
-![Cart-full](react-app/public/sceenshots/cart-full.png)
+![Cart-full](react-app/public/screenshots/cart-full.png)
 
-![Cart-empty](react-app/public/sceenshots/cart-empty.png)
+![Cart-empty](react-app/public/screenshots/cart-empty.png)
 
-![Popup](react-app/public/sceenshots/popup-img.png)
+![Popup](react-app/public/screenshots/popup-img.png)
 
-![Mobile](react-app/public/sceenshots/screen-mobile.png)
+![Mobile](react-app/public/screenshots/screen-mobile.png)
 
-![Mobile-menu](react-app/public/sceenshots/screen-mobile-menu.png)
+![Mobile-menu](react-app/public/screenshots/screen-mobile-menu.png)
 
-![Mobil-cart](react-app/public/sceenshots/screen-mobile-cart.png)
+![Mobil-cart](react-app/public/screenshots/screen-mobile-cart.png)
 
 ### Links
 
